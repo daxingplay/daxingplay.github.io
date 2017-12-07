@@ -5,7 +5,7 @@ theme = "casper"
 paginate = 5
 DisqusShortname = "daxingplay"
 Copyright = "All rights reserved - 2018"
-canonifyurls = true
+canonifyurls = false
 
 [params]
   description = "用多一点点的辛苦来交换多一点点的幸福"
