@@ -10,7 +10,7 @@ canonifyurls = true
 [params]
   description = "用多一点点的辛苦来交换多一点点的幸福"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
-#  cover = "images/cover.jpg"
+  cover = "images/cover.jpg"
   author = "daxingplay"
   authorlocation = "Hangzhou, China"
   authorwebsite = "https://daxingplay.me"
