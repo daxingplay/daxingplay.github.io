@@ -47,10 +47,10 @@ Ucenter Authentication for Dokuwiki是将Dokuwiki和Ucenter整合的一套程序
 8. 进入Dokuwiki的管理后台，进入配置设置，将authtype（认证后台管理方式）设置为uc，superuser（超级用户）设置为Discuz或者Ucenter的超级管理员的用户名，然后点提交即可，如下图4所示
 9. 至此，已经安装完毕，进入Ucenter后台看看是否通信成功
 
-[![](https://daxingplay.me/wp-content/uploads/2012/02/1.jpg "1")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/1-2)  
-[![](https://daxingplay.me/wp-content/uploads/2012/02/2.png "2")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/2-2)  
-[![](https://daxingplay.me/wp-content/uploads/2012/02/3.png "3")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/3)  
-[![](https://daxingplay.me/wp-content/uploads/2012/02/4.png "4")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/4)
+[![](https://img2.ojcdn.com/daxingplay/2012/02/1.jpg "1")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/1-2)  
+[![](https://img2.ojcdn.com/daxingplay/2012/02/2.png "2")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/2-2)  
+[![](https://img2.ojcdn.com/daxingplay/2012/02/3.png "3")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/3)  
+[![](https://img2.ojcdn.com/daxingplay/2012/02/4.png "4")](https://daxingplay.me/website/dokuwiki/release-ucenter-authentication-for-dokuwiki.html/attachment/4)
 
 #### 用户组使用指南
 
@@ -72,7 +72,3 @@ Ucenter Authentication for Dokuwiki是将Dokuwiki和Ucenter整合的一套程序
 ### 结束语
 
 好了，介绍就到此啦，如果发现bug或者有任何问题，请提交[issues](https://github.com/daxingplay/dokuwiki_ucenter/issues)
-
- (37255)
-
-

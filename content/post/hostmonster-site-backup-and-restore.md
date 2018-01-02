@@ -17,9 +17,9 @@ aliases = [
 
 进去的话截图如下：
 
-[![](https://daxingplay.me/wp-content/uploads/2011/02/ojpal.com-Site-Backup-and-Restore-300x222.png "ojpal.com - Site Backup and Restore")](https://daxingplay.me/website/sharedhosting/hostmonster-site-backup-and-restore.html/attachment/ojpal-com-site-backup-and-restore)
+[![](https://img2.ojcdn.com/daxingplay/2011/02/ojpal.com-Site-Backup-and-Restore-300x222.png "ojpal.com - Site Backup and Restore")](https://daxingplay.me/website/sharedhosting/hostmonster-site-backup-and-restore.html/attachment/ojpal-com-site-backup-and-restore)
 
-[![](https://daxingplay.me/wp-content/uploads/2011/02/Site-Backup-and-Restore-PRO-300x174.png "Site Backup and Restore PRO")](https://daxingplay.me/website/sharedhosting/hostmonster-site-backup-and-restore.html/attachment/site-backup-and-restore-pro)
+[![](https://img2.ojcdn.com/daxingplay/2011/02/Site-Backup-and-Restore-PRO-300x174.png "Site Backup and Restore PRO")](https://daxingplay.me/website/sharedhosting/hostmonster-site-backup-and-restore.html/attachment/site-backup-and-restore-pro)
 
 高级备份服务是12.95刀/年，价格相对于[Linode](http://www.linode.com/?r=a84fa0cb55e06f910470c9be9380ed74701b17b9 "Linode美国著名Xen VPS提供商") 512M的5刀/月的备份服务来说，实在是相当相当（此处省略N多相当）地便宜了。而且这个高级备份服务，相对于[Linode](http://www.linode.com/?r=a84fa0cb55e06f910470c9be9380ed74701b17b9 "Linode美国著名Xen VPS提供商")的备份服务来讲，更加智能化，看上面第二张图就可以看到。
 
@@ -32,7 +32,4 @@ aliases = [
 关于[Hostmonster](http://www.hostmonster.com/track/daxingplay "Hostmonster著名美国主机商")的介绍请看：
 
 #### [美国著名虚拟空间商HostMonster介绍](https://daxingplay.me/website/sharedhosting/hostmonster-introduction.html)
-
- (738)
-
 

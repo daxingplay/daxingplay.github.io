@@ -46,7 +46,7 @@ aliases = [
 
 背景图片：
 
-[![](https://daxingplay.me/wp-content/uploads/2010/09/bg1-300x55.png "bg1")](https://daxingplay.me/wp-content/uploads/2010/09/bg1.png)
+[![](https://img2.ojcdn.com/daxingplay/2010/09/bg1-300x55.png "bg1")](https://img2.ojcdn.com/daxingplay/2010/09/bg1.png)
 
 效果实现了，但是这个方案还有很多缺点：
 
@@ -76,7 +76,7 @@ aliases = [
 
 为了减少HTTP Request，我把这个头部所有用到的图片放在一起。如下所示（黑色的地方是透明背景）。
 
-[![](https://daxingplay.me/wp-content/uploads/2010/09/bg2-300x194.png "bg2")](https://daxingplay.me/wp-content/uploads/2010/09/bg2.png)
+[![](https://img2.ojcdn.com/daxingplay/2010/09/bg2-300x194.png "bg2")](https://img2.ojcdn.com/daxingplay/2010/09/bg2.png)
 
 有同学看了就会问，这样放的话，#hd这个最大的div的背景在水平重复的时候，那导航背景上面的那些岂不是也会自动重复呢？那页面岂不是很乱？不用担心，给.hdc这个div定义background-color:#fff就可以把那些遮住了。
 
@@ -88,12 +88,9 @@ aliases = [
 
 2、点击导航链接的时候，或者刷新页面的时候，会发现.hdc背景有一些图片快速闪过后消失。这就是常说的闪屏现象。因为#hd定义的背景，多的部分是被.hdc的背景颜色遮住的，在加载页面的时候会有闪屏现象。解决办法，根据上面的max-height再重新制作一次css sprite图片，让重复的背景上面某个高度范围内是空的即可。图片如下所示：
 
-[![](https://daxingplay.me/wp-content/uploads/2010/09/bg-300x265.png "bg")](https://daxingplay.me/wp-content/uploads/2010/09/bg.png)
+[![](https://img2.ojcdn.com/daxingplay/2010/09/bg-300x265.png "bg")](https://img2.ojcdn.com/daxingplay/2010/09/bg.png)
 
 好了，到此我们的效果基本上完全实现了，大家可以下载我的这个包到DZ X1.5的后台安装测试。
 
-[蓝色导航For Discuz X1.5](https://daxingplay.me/wp-content/uploads/2010/09/dsu_juzi_blue.zip)
-
- (7360)
-
+[蓝色导航For Discuz X1.5](https://img2.ojcdn.com/daxingplay/2010/09/dsu_juzi_blue.zip)
 

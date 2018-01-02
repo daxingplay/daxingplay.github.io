@@ -21,10 +21,8 @@ aliases = [
 
 主要学习的东西：在DiscuzX 1.5下的宽版切换的实现以及如何让风格自适应屏幕。
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-19lou-zhai-300x153.jpg "广场 - 19lou - zhai")](https://daxingplay.me/wp-content/uploads/2010/10/广场-19lou-zhai.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-19lou-zhai-300x153.jpg "广场 - 19lou - zhai")](https://img2.ojcdn.com/daxingplay/2010/10/广场-19lou-zhai.jpg)
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-19lou-300x160.png "广场-19lou")](https://daxingplay.me/wp-content/uploads/2010/10/广场-19lou.png)
-
- (4007)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-19lou-300x160.png "广场-19lou")](https://img2.ojcdn.com/daxingplay/2010/10/广场-19lou.png)
 
 

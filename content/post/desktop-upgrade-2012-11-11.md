@@ -18,18 +18,18 @@ aliases = [
 其实。。。本来是想年底升级的，但是过生日的时候意外地收到了咚咚送给我的[华硕GTX 560显卡](https://daxingplay.me/go/zcn-asus-gtx560)（目前这个显卡市面上买不到了，第一代DirectCU），当时在[卓越](https://daxingplay.me/go/amazon-cn)上买的，1299貌似，对我这等屌丝来说已经是非常好的显卡了，插到我的老主板上果然不一样，cod8全高效一点都不卡，之前的8600GT（256MB显存）根本带不起来啊。为了插这个显卡，之前的200w电源根本带不起来，于是选了半天，选了一个性价比较高的[安钛克 Antec VP 550](https://daxingplay.me/go/360buy-antec-vp-550)，个人用着感觉不错，毕竟我不超频，够用了。
 
 显卡，第一代DirectCU，现在的华硕DC卡都是两个风扇的了：  
-[![华硕GTX560](https://daxingplay.me/wp-content/uploads/2012/11/2012-09-14-14.29.03.png "华硕GTX560")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-09-14-14-29-03)
+[![华硕GTX560](https://img2.ojcdn.com/daxingplay/2012/11/2012-09-14-14.29.03.png "华硕GTX560")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-09-14-14-29-03)
 
 电源盒子和电源（话说这个盒子上的横幅把我雷到了。。。）：  
-[![安钛克Antec VP 550电源盒子](https://daxingplay.me/wp-content/uploads/2012/11/2012-09-14-19.33.06.jpg "安特克电源盒子")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-09-14-19-33-06)  
+[![安钛克Antec VP 550电源盒子](https://img2.ojcdn.com/daxingplay/2012/11/2012-09-14-19.33.06.jpg "安特克电源盒子")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-09-14-19-33-06)  
  全黑电源，看起来很舒服：  
-[![安钛克VP 550电源](https://daxingplay.me/wp-content/uploads/2012/11/2012-09-14-19.34.13.jpg "安钛克VP 550电源")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-09-14-19-34-13)
+[![安钛克VP 550电源](https://img2.ojcdn.com/daxingplay/2012/11/2012-09-14-19.34.13.jpg "安钛克VP 550电源")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-09-14-19-34-13)
 
 貌似现在的N卡会自动共享内存，而且关不掉，所以我的2GB内存显得捉襟见肘了，有时候玩极品的时候都偶尔卡一下，让我很郁闷，决定升级整个平台。毕竟现在加DDR2内存不划算。
 
 选了半天，本来还是想搞AMD平台，但是发现AMD新的八核8150也不过如此，评分和价格和i5 lvy架构差不多，i5还要更强劲一些。本来想上i5 3570k加一个高端z77主板（比如华硕的pro），但是预算不够了，囧。仔细考虑了一下，我不玩超频，加上现在cpu性能本来就过剩，就选了[i5 3470（散）]( http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB07S4%2FK0CITy7klxxrJ35Nnc0vQ4mK3w3Jl1l%2BiznVEBiqWX33L7aQNYSYuMnkLgqB2I9KIEWUm1iY5%2FVCoMpiPjKP03nWB) + [ASUS P8Z77-v lx]( http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB07S4%2FK0CITy7klxxrJ35Nnc0vQ4mK3xNmp24i4IdyIMdfRi%2FQNkERWLN8qOnSQgXSqf2AaLNx8tw3CCTKZYeCKzQt9aGbX)（其实本可以z77都不用的），然后是在天猫上弄了个[芝奇16GB 1600 DDR3](http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGGjlY60oHcc7bkKOQtI1MZmPMw93mnv9i81AVQ2LGcmcDnJj1bFEKu8r%2BWMtxKuwxK8Bjqq7dm4nvHtCkmHuinioWEsyLXTDc%2BCxcKs22iQpJTDKODWZwibRwu4Uhw27YQFVrkRMw%3D%3D)的套装。
 
-[![主板 华硕P8Z77-V LX](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-12-10.38.59-1024x768.jpg "主板")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-12-10-38-59)
+[![主板 华硕P8Z77-V LX](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-12-10.38.59-1024x768.jpg "主板")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-12-10-38-59)
 
 然后双11就买了内存+主板+cpu，因为cpu是散片，又在[京东](https://daxingplay.me/go/360buy)上搞了个[九州风神 玄冰400](https://daxingplay.me/go/360buy-jiuzhoufengshen-xuanbing400)。
 
@@ -39,70 +39,68 @@ aliases = [
 
 哎呀，这个机箱太沉了，从颐高到家就那点路，我和大伯两个人硬是抬了一个小时终于弄回家了，中间不知道休息了多少次。
 
-[![雷诺塔T1机箱盒子](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-17.22.12-1024x768.jpg "机箱盒子")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-22-12)
+[![雷诺塔T1机箱盒子](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-17.22.12-1024x768.jpg "机箱盒子")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-22-12)
 
 好了，不说废话了，先曝一下升级之后的配置：
 
 升级之后的配置
 
 <table><thead></thead><tbody><tr><th>Type</th><th>Name</th></tr><tr><td>MotherBoard</td><td>[ASUS P8Z77-v lx]( http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB07S4%2FK0CITy7klxxrJ35Nnc0vQ4mK3xNmp24i4IdyIMdfRi%2FQNkERWLN8qOnSQgXSqf2AaLNx8tw3CCTKZYeCKzQt9aGbX)</td></tr><tr><td>CPU</td><td>[i5 3470（散）]( http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB07S4%2FK0CITy7klxxrJ35Nnc0vQ4mK3w3Jl1l%2BiznVEBiqWX33L7aQNYSYuMnkLgqB2I9KIEWUm1iY5%2FVCoMpiPjKP03nWB)</td></tr><tr><td>RAM</td><td>[芝奇16GB 1600 DDR3](http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB05%2Bm7rfGGjlY60oHcc7bkKOQtI1MZmPMw93mnv9i81AVQ2LGcmcDnJj1bFEKu8r%2BWMtxKuwxK8Bjqq7dm4nvHtCkmHuinioWEsyLXTDc%2BCxcKs22iQpJTDKODWZwibRwu4Uhw27YQFVrkRMw%3D%3D)</td></tr><tr><td>DisplayCard</td><td>ASUS GTX560 DirectCU 1G/DDR5/256bit</td></tr><tr><td>CPU Fan</td><td>[九州风神 玄冰400](https://daxingplay.me/go/360buy-jiuzhoufengshen-xuanbing400)</td></tr><tr><td>Power</td><td>[安钛克 Antec VP 550](https://daxingplay.me/go/360buy-antec-vp-550)</td></tr><tr><td>Computer Case</td><td>[鑫谷雷诺塔T1](https://daxingplay.me/go/360buy-segotep-t1) | [导流板](http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB07S4%2FK0CFcRfH0GoT805sipKvJvJJqQLj9U8VJsB7xpRkRfLb4QCYZVSeGP8vdh6WCCrMW8D1%2FmxnqC2Tv36kQh8WMZ6eT6g%3D%3D)</td></tr></tbody></table>雷诺塔T1机箱，很霸气有木有！  
-[![雷诺塔T1](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-17.28.24-1024x768.jpg "雷诺塔T1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-28-24)
+[![雷诺塔T1](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-17.28.24-1024x768.jpg "雷诺塔T1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-28-24)
 
 把升级的配件都弄到一起了，忘记把电源盒子拿出来了。  
-[![各种配件集合](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-17.34.09-768x1024.jpg "各种配件集合")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-34-09)
+[![各种配件集合](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-17.34.09-768x1024.jpg "各种配件集合")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-34-09)
 
 T1和我的老中塔机箱的对比（这个老机箱跟了我5年了，太有感情了）  
-[![全塔机箱和中塔机箱的对比](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-17.46.54-1024x768.jpg "全塔机箱和中塔机箱的对比")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-46-54)
+[![全塔机箱和中塔机箱的对比](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-17.46.54-1024x768.jpg "全塔机箱和中塔机箱的对比")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-17-46-54)
 
 好了，不废话了，开始和大伯一起装机。  
  我的主板放进去顿时显得好小啊。话说我这可是大板啊。老板说这个机箱可以放那种两个CPU的主板。  
-[![把主板装进去](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-20.47.15-768x1024.jpg "把主板装进去")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-20-47-15)
+[![把主板装进去](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-20.47.15-768x1024.jpg "把主板装进去")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-20-47-15)
 
 一开始还担心我的安钛克Antec VP 550电源的线不够，发现即使是这么高的全高机箱，Antec也完全应付，不过CPU供电线刚刚好。  
  跟大伯走了4个小时的背线，终于弄的差不多了，不过拍完照片突然发现内存装成单通道了，不过懒得重拍了，大家勿喷。
 
 这是机箱背后的情况：  
-[![T1完美走背线](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.50.54-1024x768.jpg "T1走背线")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-50-54)  
+[![T1完美走背线](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.50.54-1024x768.jpg "T1走背线")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-50-54)  
  正面看起来非常简洁：  
-[![走完背线正面效果1](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.53.26-1024x768.jpg "走完背线正面效果1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-53-26)  
-[![走完背线正面效果2](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.53.47-1024x768.jpg "走完背线正面效果2")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-53-47)
+[![走完背线正面效果1](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.53.26-1024x768.jpg "走完背线正面效果1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-53-26)  
+[![走完背线正面效果2](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.53.47-1024x768.jpg "走完背线正面效果2")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-53-47)
 
 机箱，不得不说做工很赞，而且很多细节考虑得非常到位，防尘网、易拆卸等都考虑到非常到位。因为当时光线不好，没拍几张照片，就拿一张看看，像下图这里，背部的线绑好之后可以塞到这个小缝里，防止捆线露出来乱戳。  
-[![机箱细节做的很到位](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.51.18-1024x768.jpg "机箱细节做的很到位")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-51-18)
+[![机箱细节做的很到位](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.51.18-1024x768.jpg "机箱细节做的很到位")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-51-18)
 
 话说九州风神那个风扇也相当不错，做工很精细，而且细节考虑得也很好，像它固定风扇的是用两个小铁圈，直接套在散热片上，安装/拆卸也非常容易，作为屌丝，以前都是用cpu自带风扇的。机箱风扇和CPU风扇特写：  
-[![机箱风扇和CPU风扇特写1](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.54.11-1024x768.jpg "机箱风扇和CPU风扇特写1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-54-11)  
+[![机箱风扇和CPU风扇特写1](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.54.11-1024x768.jpg "机箱风扇和CPU风扇特写1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-54-11)  
  安钛克黑化电源配黑化机箱太完美了：  
-[![机箱风扇和CPU风扇特写2](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.54.23-768x1024.jpg "机箱风扇和CPU风扇特写2")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-54-23)
+[![机箱风扇和CPU风扇特写2](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.54.23-768x1024.jpg "机箱风扇和CPU风扇特写2")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-54-23)
 
 花费了大概4个小时的成果：  
-[![机箱整体装好效果](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-17-22.57.56-1024x768.jpg "机箱整体装好效果")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-57-56)
+[![机箱整体装好效果](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-17-22.57.56-1024x768.jpg "机箱整体装好效果")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-17-22-57-56)
 
 把机箱放到桌子上，顿时显得我用了5年的19寸LED太小了：  
-[![把机箱放到桌子上](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-19-00.26.49-1024x768.jpg "把机箱放到桌子上")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-19-00-26-49)
+[![把机箱放到桌子上](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-19-00.26.49-1024x768.jpg "把机箱放到桌子上")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-19-00-26-49)
 
 因为桌子下面还要放以前的老机箱，然后考虑到放在下面太吸灰尘了，而且机箱里面的灯放在上面才好看吧，所以还是放在上面吧。  
-[![把机箱放到桌子上](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-23-01.06.16-768x1024.jpg "把机箱放到桌子上")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-01-06-16)
+[![把机箱放到桌子上](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-23-01.06.16-768x1024.jpg "把机箱放到桌子上")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-01-06-16)
 
 机箱上部带了风扇调速器以及USB 3.0，正好我的My Passport移动硬盘能用上3.0了，可惜硬盘还是Sata机械盘，没用。  
-[![机箱上部](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-23-01.06.31-768x1024.jpg "机箱上部")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-01-06-31)
+[![机箱上部](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-23-01.06.31-768x1024.jpg "机箱上部")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-01-06-31)
 
 从侧面的透板看机箱前面板的风扇灯：  
-[![机箱前面板的灯](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-23-01.08.30-768x1024.jpg "机箱前面板的灯")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-01-08-30)
+[![机箱前面板的灯](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-23-01.08.30-768x1024.jpg "机箱前面板的灯")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-01-08-30)
 
 最后，装了Win8，用优惠买了个正版序列号，激活之，建议大家以后多多支持正版软件：  
-[![正版Win8](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-18-17.25.52-1024x768.jpg "正版Win8")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-18-17-25-52)
+[![正版Win8](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-18-17.25.52-1024x768.jpg "正版Win8")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-18-17-25-52)
 
 后记2012-11-28：  
  有在淘宝上买了机箱的[导流板](http://s.click.taobao.com/t?e=zGU34CA7K%2BPkqB07S4%2FK0CFcRfH0GoT805sipKvJvJJqQLj9U8VJsB7xpRkRfLb4QCYZVSeGP8vdh6WCCrMW8D1%2FmxnqC2Tv36kQh8WMZ6eT6g%3D%3D)，京东坑爹的卖89，天猫上48还包邮：  
-[![](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-23-21.47.20-768x1024.jpg "装上导流板")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-21-47-20)
+[![](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-23-21.47.20-768x1024.jpg "装上导流板")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-21-47-20)
 
 建议导流板一起和机箱买了，因为主板装好，线都理好了之后不太容易装那个导流板，会被线挡住。我是硬塞进去的。。。  
-[![](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-23-21.47.41-768x1024.jpg "装上导流板效果1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-21-47-41)
+[![](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-23-21.47.41-768x1024.jpg "装上导流板效果1")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-21-47-41)
 
 装上后整体的效果，内存也调整成双通道了。因为考虑到美观因素，没装那个显卡支架。  
-[![](https://daxingplay.me/wp-content/uploads/2012/11/2012-11-23-21.48.26-768x1024.jpg "整体效果")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-21-48-26)
-
- (2463)
+[![](https://img2.ojcdn.com/daxingplay/2012/11/2012-11-23-21.48.26-768x1024.jpg "整体效果")](https://daxingplay.me/life/diy/desktop-upgrade-2012-11-11.html/attachment/2012-11-23-21-48-26)
 
 

@@ -37,14 +37,14 @@ aliases = [
 如果这个用户在dz里面取不到，那么就是默认的user组。
 
 如果您说，他的用户组我不想改怎么办，或者因为这个用户是会员用户组的（会员用户组只能通过积分升级来改变用户组），不是属于系统/管理用户组的，没法改，其实dz已经有一个解决办法了，就是扩展用户组，比如你可以新建一个用户组叫百科编辑员，然后设置这个用户的扩展用户组为百科编辑员，如下：  
-[![在dz中给用户设置扩展用户组](https://daxingplay.me/wp-content/uploads/2012/10/dokuwiki-acl-settings-3.jpg "dokuwiki-acl-settings-3")](https://daxingplay.me/website/dokuwiki/ucenter-authentication-for-dokuwiki-user-group-settings-tutorial.html/attachment/dokuwiki-acl-settings-3)  
+[![在dz中给用户设置扩展用户组](https://img2.ojcdn.com/daxingplay/2012/10/dokuwiki-acl-settings-3.jpg "dokuwiki-acl-settings-3")](https://daxingplay.me/website/dokuwiki/ucenter-authentication-for-dokuwiki-user-group-settings-tutorial.html/attachment/dokuwiki-acl-settings-3)  
  然后，到dokuwiki的访问控制列表（ACL）管理器中，给相应的用户组赋予权限：
 
-[![](https://daxingplay.me/wp-content/uploads/2012/10/dokuwiki-acl-settings.jpg "dokuwiki-acl-settings")](https://daxingplay.me/website/dokuwiki/ucenter-authentication-for-dokuwiki-user-group-settings-tutorial.html/attachment/dokuwiki-acl-settings)
+[![](https://img2.ojcdn.com/daxingplay/2012/10/dokuwiki-acl-settings.jpg "dokuwiki-acl-settings")](https://daxingplay.me/website/dokuwiki/ucenter-authentication-for-dokuwiki-user-group-settings-tutorial.html/attachment/dokuwiki-acl-settings)
 
 没错，用户组可以用汉字，就是你在dz里面设置的用户组。
 
-[![](https://daxingplay.me/wp-content/uploads/2012/10/dokuwiki-acl-settings-2.jpg "dokuwiki-acl-settings-2")](https://daxingplay.me/website/dokuwiki/ucenter-authentication-for-dokuwiki-user-group-settings-tutorial.html/attachment/dokuwiki-acl-settings-2)
+[![](https://img2.ojcdn.com/daxingplay/2012/10/dokuwiki-acl-settings-2.jpg "dokuwiki-acl-settings-2")](https://daxingplay.me/website/dokuwiki/ucenter-authentication-for-dokuwiki-user-group-settings-tutorial.html/attachment/dokuwiki-acl-settings-2)
 
 然后你想给他神马权限都可以的。记得保存就好了。
 
@@ -67,6 +67,5 @@ aliases = [
 
 如果您有其他问题，欢迎留言或到github里面提[issue](https://github.com/daxingplay/dokuwiki_ucenter/issues)。
 
- (3307)
 
 

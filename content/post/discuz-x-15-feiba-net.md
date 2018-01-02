@@ -21,28 +21,25 @@ aliases = [
 
 好了。不废话，上图。
 
-![](https://daxingplay.me/wp-content/uploads/2010/10/-首页-178x300.jpg "飞吧-首页")
+![](https://img2.ojcdn.com/daxingplay/2010/10/-首页-178x300.jpg "飞吧-首页")
 
 首页
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-下拉菜单-300x207.jpg "飞吧-下拉菜单")](https://daxingplay.me/wp-content/uploads/2010/10/飞吧-下拉菜单.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-下拉菜单-300x207.jpg "飞吧-下拉菜单")](https://img2.ojcdn.com/daxingplay/2010/10/飞吧-下拉菜单.jpg)
 
 下拉导航
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-漂亮的ajax窗口-139x300.jpg "飞吧资源站-帖子列表页")](https://daxingplay.me/wp-content/uploads/2010/10/飞吧资源站-漂亮的ajax窗口.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-漂亮的ajax窗口-139x300.jpg "飞吧资源站-帖子列表页")](https://img2.ojcdn.com/daxingplay/2010/10/飞吧资源站-漂亮的ajax窗口.jpg)
 
 帖子列表
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-Ajax窗口-300x209.jpg "飞吧资源站-Ajax窗口")](https://daxingplay.me/wp-content/uploads/2010/10/飞吧资源站-Ajax窗口.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-Ajax窗口-300x209.jpg "飞吧资源站-Ajax窗口")](https://img2.ojcdn.com/daxingplay/2010/10/飞吧资源站-Ajax窗口.jpg)
 
 漂亮的Ajax窗口
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-帖子详细页1-221x300.jpg "飞吧-帖子详细页")](https://daxingplay.me/wp-content/uploads/2010/10/飞吧-帖子详细页1.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-帖子详细页1-221x300.jpg "飞吧-帖子详细页")](https://img2.ojcdn.com/daxingplay/2010/10/飞吧-帖子详细页1.jpg)
 
 帖子详细内容页
 
 其它的细节方面的就不多说了。看起来不多，实际上有很多地方难度还是很大的。由于一些地方被程序写死了，找不到嵌入点，所以也配合了JavaScript动态地插入了一些嵌入点，最后才终于实现了需求方所想要的效果。至此，bug也基本修复完毕。
-
- (2189)
-
 

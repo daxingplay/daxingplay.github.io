@@ -57,7 +57,7 @@ aliases = [
 
 首先，先用油漆胶带把轮毂的一个洞洞周围都包好。如下图所示。然后对卡钳这部分进行喷漆，记住上面的喷漆原理，第一层喷50%的透明度就好了，因为卡钳很靠里面，如果离得近喷的话，第一层会喷的很厚，所以一定要离的远喷。然后放下手刹，用手推车子，相当于转动轮子，这样，本来被轮毂遮住的部分就会出现在刚才包好的洞洞里面，继续喷，直到把整个卡钳喷完。如果是两个人合作就更好喷了，一个人慢慢推车，一定要很慢（当然这个速度需要喷的人来指挥掌握），另外一个人就可以不停一直喷了。第一个卡钳的第一层喷好之后，在等待油漆干的时候可以喷第二个卡钳，自己要记得每个卡钳已经喷了几层就好。
 
-[![用胶布把一个洞洞遮住](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.25.40-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.25.40.jpg)
+[![用胶布把一个洞洞遮住](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.25.40-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.25.40.jpg)
 
 接下来的就是重复这个工作，知道喷完5层，等待卡钳晾干。
 
@@ -67,11 +67,11 @@ aliases = [
 
 全部喷好之后，可以轻轻把周围的胶布撕下来：
 
-[![把胶布撕下来](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-14.48.41-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-14.48.41.jpg)
+[![把胶布撕下来](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-14.48.41-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-14.48.41.jpg)
 
 卡钳喷好的效果（我喷的有点厚）：
 
-[![喷好卡钳的效果](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.25.31-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.25.31.jpg)
+[![喷好卡钳的效果](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.25.31-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.25.31.jpg)
 
 ### 喷轮毂
 
@@ -79,29 +79,29 @@ aliases = [
 
 至于轮胎部分，不需要遮挡的，待会儿告诉你为啥。车身可以用报纸遮上，如下图所示。
 
-[![准备喷轮毂](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.30.32-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.30.32.jpg)
+[![准备喷轮毂](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.30.32-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.30.32.jpg)
 
 好，开始喷，喷轮毂就简单多了。按照上面的方法喷5层就好。放心大胆地喷，喷到轮胎上没事的。下面这张图是我喷完3层的效果。
 
-[![喷完3层的效果](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.51.04-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-15.51.04.jpg)
+[![喷完3层的效果](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.51.04-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-15.51.04.jpg)
 
 喷完四层：
 
-[![喷完4层](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-16.14.27-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-16.14.27.jpg)
+[![喷完4层](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-16.14.27-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-16.14.27.jpg)
 
 喷好之后，因为我喷的是黑色的，所以喷到轮胎上的看不出来，如果你喷的是其它颜色的，轮胎上肯定也是那个颜色，不用怕，等油漆干了之后，用指甲抠起一小块，慢慢揭下来吧！这就是这个油漆的强大之处，不喜欢了，直接揭下来，就是一层膜，不好意思，当时忘记拍照了。
 
 这是完整喷完轮毂的效果，这个时候，等轮毂差不多干了，就可以慢慢把里面的厨房垃圾袋抽出来了：
 
-[![喷完轮毂](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-18.03.12-225x300.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-18.03.12.jpg)
+[![喷完轮毂](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-18.03.12-225x300.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-18.03.12.jpg)
 
 ### 收工
 
 终于完工啦，我从下午1点半开始动工，一直弄到下午6点半，除了推车的时候有人帮忙，其它时候都是自己弄的。还好，今天是晴天~给大家提供几张效果图，我也是第一次喷，所以经验有限，高手轻喷：
 
-[![后轮效果](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-18.03.42-300x225.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-18.03.42.jpg)
+[![后轮效果](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-18.03.42-300x225.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-18.03.42.jpg)
 
-[![整车效果](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-18.28.37-300x225.jpg)](https://daxingplay.me/wp-content/uploads/2013/06/2013-06-22-18.28.37.jpg)
+[![整车效果](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-18.28.37-300x225.jpg)](https://img2.ojcdn.com/daxingplay/2013/06/2013-06-22-18.28.37.jpg)
 
 整车效果照片拍得不是很好，实际上效果还不错，回头给大家补上照片。
 
@@ -115,7 +115,3 @@ plasti dip：[淘宝购买地址](http://item.taobao.com/item.htm?id=17504491569
 ## 后记
 
 我喷完第二天也是晴天，卖家的建议是隔天宜洗车，如果您怕第二天下雨，建议用车衣遮上。从第三天开始，杭州就连续下了一个星期的雨，但是喷漆很牢固，一点问题都米有~所以大家尽管放心喷~
-
- (947)
-
-

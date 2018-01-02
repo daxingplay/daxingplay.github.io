@@ -27,10 +27,8 @@ $config['output']['staticurl']="http://www.ojcdn.com/";
 
 给大家看看我的改动的情况：
 
-[![](https://daxingplay.me/wp-content/uploads/2011/03/CDN设置.jpg "CDN设置")](https://daxingplay.me/drafts/%e5%a6%82%e4%bd%95%e5%ae%89%e5%85%a8%e5%9c%b0%e4%b8%badiscuz%e5%ae%9e%e7%8e%b0cdn%e5%8a%a0%e9%80%9f%e5%8a%9f%e8%83%bd.html/attachment/cdn%e8%ae%be%e7%bd%ae)
+[![](https://img2.ojcdn.com/daxingplay/2011/03/CDN设置.jpg "CDN设置")](https://img2.ojcdn.com/daxingplay/2011/03/CDN设置.jpg)
 
 经过以上两步设置完毕之后，您的网站已经可以使用CDN加速了，清空下浏览器缓存，重新打开一下您的网站，如果图片都显示正常，则说明您设置成功了！如果不正常的话，建议您检查下您的CDN服务供应商那边的设置以及上面两个步骤中的URL是否填写正确。
-
- (4441)
 
 

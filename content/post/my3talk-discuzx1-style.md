@@ -25,11 +25,11 @@ aliases = [
 
 一下是完成的效果图。
 
-[![](https://daxingplay.me/wp-content/uploads/2010/09/My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz-553x1024.jpg "My 3Talk 討論區 _ 您的自由、免費、討論的好地方 - Powered by Discuz!")](https://daxingplay.me/wp-content/uploads/2010/09/My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/09/My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz-553x1024.jpg "My 3Talk 討論區 _ 您的自由、免費、討論的好地方 - Powered by Discuz!")](https://img2.ojcdn.com/daxingplay/2010/09/My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz.jpg)
 
 里面一些看不到的地方是因为使用了Facebook等一些被封网站的服务，在国内看不到，但对于这个香港地方论坛来说，用户基本上是看得到的，我没法截图，请大家见谅。
 
-[![](https://daxingplay.me/wp-content/uploads/2010/09/-橘子-My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz-814x1024.jpg "動態 - 橘子- My 3Talk 討論區")](https://daxingplay.me/wp-content/uploads/2010/09/-橘子-My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz-e1285351153143.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/09/-橘子-My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz-814x1024.jpg "動態 - 橘子- My 3Talk 討論區")](https://img2.ojcdn.com/daxingplay/2010/09/-橘子-My-3Talk-討論區-_-您的自由、免費、討論的好地方-Powered-by-Discuz-e1285351153143.jpg)
 
 其它页面由于我上传的时候有问题，稍候提供。
 
@@ -42,7 +42,4 @@ aliases = [
 原理也很简单。因为导航ul外层有个div nv，所以我让#nv居中，宽度和头部宽度一样970px。然后让ul居右。但是这样的话，就会使导航有下移的感觉，解决办法也很简单，对#nv使用margin-top负边距即可。
 
 所以灵活运用负边距还是很有效的。记得看过一篇文章说，css大师的技能之一就是灵活使用负边距。呵呵，当然我还有一定距离。
-
- (1528)
-
 

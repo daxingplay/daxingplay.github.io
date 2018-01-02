@@ -32,27 +32,27 @@ aliases = [
 
 首页（自适应屏幕状态）
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/MacWow-麦客窝-专业苹果技术社区-首页-161x300.jpg "MacWow-麦客窝-[专业苹果技术社区] - 首页")](https://daxingplay.me/wp-content/uploads/2010/10/MacWow-麦客窝-专业苹果技术社区-首页.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/MacWow-麦客窝-专业苹果技术社区-首页-161x300.jpg "MacWow-麦客窝-[专业苹果技术社区] - 首页")](https://img2.ojcdn.com/daxingplay/2010/10/MacWow-麦客窝-专业苹果技术社区-首页.jpg)
 
 帖子页面（自适应屏幕状态）
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/MacWow-发帖页面-80x300.jpg "MacWow-发帖页面")](https://daxingplay.me/wp-content/uploads/2010/10/MacWow-发帖页面.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/MacWow-发帖页面-80x300.jpg "MacWow-发帖页面")](https://img2.ojcdn.com/daxingplay/2010/10/MacWow-发帖页面.jpg)
 
 帖子列表（自适应屏幕状态）
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-MacWow-197x300.jpg "版块 - MacWow")](https://daxingplay.me/wp-content/uploads/2010/10/版块-MacWow.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-MacWow-197x300.jpg "版块 - MacWow")](https://img2.ojcdn.com/daxingplay/2010/10/版块-MacWow.jpg)
 
 首页（窄版）
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/MacWow-麦客窝-专业苹果技术社区-首页窄版-159x300.jpg "MacWow-麦客窝-[专业苹果技术社区] - 首页窄版")](https://daxingplay.me/wp-content/uploads/2010/10/MacWow-麦客窝-专业苹果技术社区-首页窄版.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/MacWow-麦客窝-专业苹果技术社区-首页窄版-159x300.jpg "MacWow-麦客窝-[专业苹果技术社区] - 首页窄版")](https://img2.ojcdn.com/daxingplay/2010/10/MacWow-麦客窝-专业苹果技术社区-首页窄版.jpg)
 
 帖子列表（窄版）
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-MacWow-麦客窝-窄版-197x300.jpg "综合讨论区 - MacWow-麦客窝-窄版")](https://daxingplay.me/wp-content/uploads/2010/10/综合讨论区-MacWow-麦客窝-窄版.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-MacWow-麦客窝-窄版-197x300.jpg "综合讨论区 - MacWow-麦客窝-窄版")](https://img2.ojcdn.com/daxingplay/2010/10/综合讨论区-MacWow-麦客窝-窄版.jpg)
 
 帖子页面（窄版）
 
-[![](https://daxingplay.me/wp-content/uploads/2010/10/-综合讨论区-MacWow-麦客窝-窄版-275x300.jpg "帖子 - 综合讨论区 - MacWow-麦客窝-窄版")](https://daxingplay.me/wp-content/uploads/2010/10/帖子-综合讨论区-MacWow-麦客窝-窄版.jpg)
+[![](https://img2.ojcdn.com/daxingplay/2010/10/-综合讨论区-MacWow-麦客窝-窄版-275x300.jpg "帖子 - 综合讨论区 - MacWow-麦客窝-窄版")](https://img2.ojcdn.com/daxingplay/2010/10/帖子-综合讨论区-MacWow-麦客窝-窄版.jpg)
 
 好了，接下来说说做这个作品的感受吧。
 
@@ -69,7 +69,3 @@ aliases = [
 - 提高了自己在IE下结合多种工具进行debug的能力；
 
 总之，这个作品是我很满意的作品（毕竟是专业的设计师设计的），而且自己也学到了不少东西。我也担任了这个网站的管理员，接下来的时间里面会继续完善网站功能，比如门户等，随后为大家展示。
-
- (1953)
-
-

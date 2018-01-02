@@ -45,13 +45,13 @@ aliases = [
 
 让我们具体用traceroute命令跟踪一下：
 
-[![](https://daxingplay.me/wp-content/uploads/2011/02/1.jpg "1")](https://daxingplay.me/website/sharedhosting/hostmonster-discuz-manyou.html/attachment/1)
+[![](https://img2.ojcdn.com/daxingplay/2011/02/1.jpg "1")](https://daxingplay.me/website/sharedhosting/hostmonster-discuz-manyou.html/attachment/1)
 
 可以看出，在202.97.50.73这个地方断掉，去查一下这个ip，发现是电信骨干网。而前面的几个节点，很明显都是美国的节点。
 
 为了进一步验证，我又跟踪了几个国内的网站，比如百度、新浪等，结果不谋而合。
 
-[![](https://daxingplay.me/wp-content/uploads/2011/02/2.jpg "2")](https://daxingplay.me/website/sharedhosting/hostmonster-discuz-manyou.html/attachment/2)
+[![](https://img2.ojcdn.com/daxingplay/2011/02/2.jpg "2")](https://daxingplay.me/website/sharedhosting/hostmonster-discuz-manyou.html/attachment/2)
 
 很明显，在**每次**进入国内骨干网的情况下断掉，是墙的缘故。所以我得出了一个结论：
 
@@ -93,7 +93,4 @@ aliases = [
 如果您想深入地了解[Hostmonster](http://www.hostmonster.com/track/daxingplay "Hostmonster著名美国主机商")的主机，请看：
 
 #### [美国著名虚拟空间商HostMonster介绍](https://daxingplay.me/website/sharedhosting/hostmonster-introduction.html)
-
- (3744)
-
 
