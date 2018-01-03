@@ -1,16 +1,33 @@
 baseURL = "https://daxingplay.me/"
 languageCode = "en-us"
 title = "小橘子D"
-theme = "casper"
+theme = "hugo-nuo"
 paginate = 5
 DisqusShortname = "daxingplay"
 Copyright = "All rights reserved - 2018"
 canonifyurls = false
 hasCJKLanguage = true
+googleAnalytics = "UA-16047000-1"
+disqusShortname = "daxingplay"
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+
+
+[[menu.main]]
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
 
 [params]
   description = "用多一点点的辛苦来交换多一点点的幸福"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  subtitle = "用多一点点的辛苦来交换多一点点的幸福"
+  metadescription = "橘子（daxingplay） 的个人博客，记录生活历程、前端、全栈技术分享"
   cover = "images/cover.jpg"
   author = "daxingplay"
   authorlocation = "Hangzhou, China"
@@ -32,6 +49,29 @@ hasCJKLanguage = true
   # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
   hjsStyle = "default"
+
+  avatar = "//img2.ojcdn.com/daxingplay/avatar.jpg"
+  email = "daxingplay@gmail.com"
+  github = "daxingplay"
+  twitter = "daxingplay"
+  linkedin = "daxingplay"
+  #weibo = "ojpal"
+  wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
+  facebook = "daxingplay"
+  google = "daxingplay"
+  #instagram = "daxingplay"
+  #youtube = "daxingplay"
+  #vimeo = "daxingplay"
+  #medium = "daxingplay"
+  #quora = "daxingplay"
+  #pinterest = "daxingplay"
+  #dribbble = "dribbble_username"
+  #behance = "behance_username"
+  #jsfiddle = "daxingplay"
+  #codepen = "daxingplay"
+  #zhihu = "daxingplay"
+  #douban = "douban_username"
+  #bilibili = "bilibili_id_number"
 
   [params.social]
     twitter = "daxingplay"
