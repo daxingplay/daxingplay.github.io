@@ -31,6 +31,9 @@ Mac 系统下需要安装驱动，我在网上找了三个：
 
 这三个应该都是可以的，可以自己试一试。第一个和第二个应该是一样的，我应该是用了这两个中的一个。唯一的区别可能是最后刷机的时候 port 的不同。
 
+
+Mac 下刷固件，我就直接用命令行了，Windows 上有 GUI 程序，会简单很多。
+
 ```
 esptool.py --port /dev/cu.wchusbserial1420 write_flash -fm dio 0x00000 /path-to-nodemcu.bin
 ```
