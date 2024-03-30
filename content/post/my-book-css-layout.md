@@ -29,6 +29,5 @@ aliases = [
 
 建议大家到[卓越](http://www.amazon.cn/?source=daxingplay)上购买，免快递费，送货上门，而且支持货到付款。
 
- (2509)
 
 

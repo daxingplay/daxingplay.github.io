@@ -149,6 +149,5 @@ ftp:x:14:50:FTP User:/home/anon_ftp_dir:/sbin/nologin
 
 如果在登录过程中出现无法列出目录（即执行MLSD命令时）的情况，请参考：[连接pure-ftpd服务端无法列出目录的解决办法。](https://daxingplay.me/study/centos/connect-to-pure-ftpd-but-cannot-mlsd.html)
 
- (3684)
 
 

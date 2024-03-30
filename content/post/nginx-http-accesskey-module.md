@@ -71,6 +71,5 @@ mv /usr/local/nginx/sbin/nginx /usr/local/nginx/sbin/nginx.old
 
 以上就是我遇到的两个问题，希望能对大家有所帮助。从问题可以看出，HttpAccessKeyModule主要是针对下载的，普通的图片神马的防盗链用这个确实有点大材小用了。
 
- (4000)
 
 

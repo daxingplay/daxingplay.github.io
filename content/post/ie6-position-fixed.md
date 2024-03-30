@@ -36,6 +36,5 @@ aliases = [
 
 对比两个纯粹的CSS hack发现，两个原理似乎相同，在于html元素和body元素的应用和对CSS的{position:fixed}的支持程度上，但是这实际上是一种Hack，基本上不具备通用性，知道这个方法就可以了。需要提醒的是IE6 standards-compliant模式下HTML元素不管给它设置什么样的高度和宽度，它的大小都始终充满整个浏览器的可视区域，而IE5 以及 Quirks 模式下html元素和body元素所有宽高设置都会被忽略而保持充满浏览器的可视区域，更多内容请看[《IE 中的 html 元素》](http://old9.blogsome.com/2007/03/14/html-element-in-ie/)
 
- (2111)
 
 

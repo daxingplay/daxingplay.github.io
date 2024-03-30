@@ -31,5 +31,5 @@ aliases = [
 
 关于[Hostmonster](http://www.hostmonster.com/track/daxingplay "Hostmonster著名美国主机商")的介绍请看：
 
-#### [美国著名虚拟空间商HostMonster介绍](https://daxingplay.me/website/sharedhosting/hostmonster-introduction.html)
+[美国著名虚拟空间商HostMonster介绍](https://daxingplay.me/website/sharedhosting/hostmonster-introduction.html)
 

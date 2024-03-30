@@ -19,6 +19,5 @@ Aptana Studio是我最近发现的一个很强大的Web开发工具。该工具�
 
 首先是要给Aptana安装一个charest的包，大家可以直接从EPP中获取。在EPP安装目录下的jre/lib文件夹下面。复制charsets.jar到aptana的jre/lib/目录中即可让Aptana拥有GBK包。然后我们进入Aptana，在菜单栏中的Windows——Preferences——General——Content Types，选择 Text ，在下方的Default Encoding指定默认编码为GBK，这样就可以让Aptana完美地支持GBK编码的中文了！
 
- (549)
 
 
