@@ -19,16 +19,17 @@ aliases = [
 
 于是在网上狂搜，终于找到了合适的解决办法，并且测试有效。在网站头部加入
 
+```js
 <script language="javascript" type="text/javascript"> 
  if (top.location !== self.location) { 
  top.location=self.location; 
  } 
 </script>
+```
 
 即可解决。
 
 原理是只要遇到网页被iframe框住就从里面跳出来。
 
- (10311)
 
 

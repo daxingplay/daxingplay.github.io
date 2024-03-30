@@ -19,20 +19,24 @@ aliases = [
 
 首先看pure-ftpd的配置，vi打开conf文件，找到下面的一行，取消注释，修改pure-ftpd被动连接的端口。
 
+```
 PassivePortRange          30000 50000
+```
 
 然后保存退出，重启pure-ftpd服务。
 
 再运行下面的命令在防火墙中打开上述PASV端口。
 
+```shell
  iptables -I INPUT 2 -p tcp --dport 30000:50000 -j ACCEPT iptables -I INPUT 2 -p udp --dport 30000:50000 -j ACCEPT
+```
 
 然后运行一下iptables -L查看一下FTP端口是否打开，如果没打开，运行下面的命令：
 
+```shell
  iptables -I INPUT 2 -p tcp --dport 21 -j ACCEPT iptables -I INPUT 2 -p udp --dport 21 -j ACCEPT
+```
 
 好了，再用客户端连接一下看看吧。
-
- (2451)
 
 

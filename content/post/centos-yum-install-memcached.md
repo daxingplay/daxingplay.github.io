@@ -61,6 +61,5 @@ chkconfig memcached on
 
 至此，memcached即可使用，在DiscuzX的后台管理面板中也可以看到并且使用了。
 
- (2073)
 
 

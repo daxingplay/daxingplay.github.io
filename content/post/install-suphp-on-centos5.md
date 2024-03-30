@@ -131,6 +131,6 @@ echo exec('/usr/bin/whoami');
 
 [http://www.chrisam.net/blog/2009/10/11/installing-and-configuring-suphp-on-centos-5-3/](http://www.chrisam.net/blog/2009/10/11/installing-and-configuring-suphp-on-centos-5-3/)
 
- (2883)
+
 
 

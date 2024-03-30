@@ -85,6 +85,5 @@ ${recipient}前面我少加了一个横杠，正确的配置应该是：
 
 这样就给spamassassin指明了收件人是谁，对于刚才那个错误配置，spamassassin不知道投递给谁，因此就投递给了[-@mail.ojpal.com](mailto:-@mail.ojpal.com)，有点像广播，问问这个邮件到底是谁的，呵呵。
 
- (2160)
 
 

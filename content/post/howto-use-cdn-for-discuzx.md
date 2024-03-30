@@ -17,13 +17,15 @@ aliases = [
 
 首先修改config/config_global.php这个文件，修改这句：
 
+```php
 $config['output']['staticurl']="http://www.ojcdn.com/";
+```
 
-请把里面的网址替换为你自己的CDN加速网址。确保这个地址是为http://www.yourdomain.com/static加速的（这个需要你查看您的域名记录和CDN供应商那边的设置）。
+请把里面的网址替换为你自己的CDN加速网址。确保这个地址是为`http://www.yourdomain.com/static`加速的（这个需要你查看您的域名记录和CDN供应商那边的设置）。
 
 然后进入管理后台，界面，风格管理。编辑你正在使用的风格。
 
-将里面界面基础图片目录和扩展图片目录也设置为相应的CND加速的值。比如这里，我的网站橘汁仙剑网的CDN域名www.ojcdn.com指向的是http://www.ojpal.com/static，本来界面基础图片目录的值为static/image/common（翻译为完整的绝对URL是http://www.ojpal.com/static/image/common），那么此处的CDN加速的地址就是http://www.ojcdn.com/image/common。务必要注意这个替换关系。如果这个都看不懂的话，说句难听的话，我建议您先好好学学互联网基础知识再来做站。
+将里面界面基础图片目录和扩展图片目录也设置为相应的CND加速的值。比如这里，我的网站橘汁仙剑网的CDN域名www.ojcdn.com指向的是http://www.ojpal.com/static，本来界面基础图片目录的值为static/image/common（翻译为完整的绝对URL是http://www.ojpal.com/static/image/common），那么此处的CDN加速的地址就是`http://www.ojcdn.com/image/common`。务必要注意这个替换关系。
 
 给大家看看我的改动的情况：
 

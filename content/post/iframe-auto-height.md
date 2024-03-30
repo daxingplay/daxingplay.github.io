@@ -85,6 +85,6 @@ Demo页面：主页面 [iframe_a.html](http://ued.koubei.com/wp-content/iframe_a
 
 <iframe frameborder="0" id="frame_content" onload="this.height=this.contentWindow.document.documentElement.scrollHeight" scrolling="no" src="iframe_b.html"></iframe>
 
- (508)
+
 
 
