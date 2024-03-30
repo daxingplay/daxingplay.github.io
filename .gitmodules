@@ -4,3 +4,6 @@
 [submodule "themes/hugo-nuo"]
 	path = themes/hugo-nuo
 	url = https://github.com/laozhu/hugo-nuo.git
+[submodule "themes/hugo-nuo-ng"]
+	path = themes/hugo-nuo-ng
+	url = https://github.com/daxingplay/hugo-nuo-ng.git

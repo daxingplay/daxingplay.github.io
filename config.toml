@@ -1,7 +1,7 @@
 baseURL = "https://daxingplay.me/"
 languageCode = "en-us"
 title = "小橘子D"
-theme = "hugo-nuo"
+theme = "hugo-nuo-ng"
 paginate = 5
 DisqusShortname = "daxingplay"
 Copyright = "All rights reserved - 2018"
