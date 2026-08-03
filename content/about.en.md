@@ -5,9 +5,9 @@ description = ""
 draft = false
 slug = "about"
 layout = "about"
-title = "关于"
+title = "About"
 comments = false
 
 +++
 
-待补充……
+To be updated...

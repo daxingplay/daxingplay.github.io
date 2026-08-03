@@ -1,33 +1,83 @@
 baseURL = "https://daxingplay.me/"
-languageCode = "en-us"
 title = "小橘子D"
 theme = "hugo-nuo-ng"
 paginate = 5
 DisqusShortname = "daxingplay"
-Copyright = "All rights reserved - 2018"
 canonifyurls = false
 hasCJKLanguage = true
 googleAnalytics = "UA-16047000-1"
 disqusShortname = "daxingplay"
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
 
+# Chinese is the default language and stays at the site root, so every existing
+# URL (and the aliases pointing at them) keeps working untouched. English lives
+# under /en/. Posts are translated by filename: foo.md is Chinese, foo.en.md is
+# its English translation. A post with no .en.md simply does not exist in /en/.
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
 
-[[menu.main]]
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
+[languages]
 
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
+  [languages.zh-cn]
+    weight = 1
+    languageCode = "zh-CN"
+    languageName = "中文"
+    title = "小橘子D"
+    copyright = "© 本文采用知识共享署名 - 非商业性使用 4.0 国际许可协议进行许可，转载或引用请注明出处。"
+
+    [languages.zh-cn.params]
+      description = "用多一点点的辛苦来交换多一点点的幸福"
+      subtitle = "用多一点点的辛苦来交换多一点点的幸福"
+      metadescription = "橘子（daxingplay） 的个人博客，记录生活历程、前端、全栈技术分享"
+
+    [[languages.zh-cn.menu.main]]
+      name = "首页"
+      weight = 10
+      identifier = "home"
+      url = "/"
+
+    [[languages.zh-cn.menu.main]]
+      name = "标签"
+      weight = 30
+      identifier = "tags"
+      url = "/tags/"
+
+    [[languages.zh-cn.menu.main]]
+      name = "关于"
+      weight = 40
+      identifier = "about"
+      url = "/about/"
+
+  [languages.en]
+    weight = 2
+    languageCode = "en-US"
+    languageName = "English"
+    title = "daxingplay"
+    copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. Please credit the source if you quote or reproduce it."
+
+    [languages.en.params]
+      description = "Trading a little more effort for a little more happiness"
+      subtitle = "Trading a little more effort for a little more happiness"
+      metadescription = "Personal blog of daxingplay — notes on life, front-end and full-stack engineering."
+
+    [[languages.en.menu.main]]
+      name = "Home"
+      weight = 10
+      identifier = "home"
+      url = "/en/"
+
+    [[languages.en.menu.main]]
+      name = "Tags"
+      weight = 30
+      identifier = "tags"
+      url = "/en/tags/"
+
+    [[languages.en.menu.main]]
+      name = "About"
+      weight = 40
+      identifier = "about"
+      url = "/en/about/"
 
 [params]
-  description = "用多一点点的辛苦来交换多一点点的幸福"
-  subtitle = "用多一点点的辛苦来交换多一点点的幸福"
-  metadescription = "橘子（daxingplay） 的个人博客，记录生活历程、前端、全栈技术分享"
   cover = "images/cover.jpg"
   author = "daxingplay"
   authorlocation = "Hangzhou, China"
@@ -44,7 +94,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   linkedinName = "daxingplay"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
-  
+
   # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
   # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/

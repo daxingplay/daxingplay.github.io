@@ -1,0 +1,82 @@
+# Date layouts are Go reference-time layouts, not strftime patterns.
+[dateFormat]
+other = "Jan 2, 2006"
+
+[archiveGroupFormat]
+other = "Jan 2006"
+
+# Navigation and landmarks
+[mainMenu]
+other = "Main Menu"
+
+[socialNetworks]
+other = "Social Networks"
+
+[languageMenu]
+other = "Language"
+
+[allPosts]
+other = "All Posts"
+
+[postsList]
+other = "Posts List"
+
+[pagination]
+other = "Pagination"
+
+[newerPosts]
+other = "← Newer Posts"
+
+[olderPosts]
+other = "Older Posts →"
+
+[readMore]
+other = "Read More →"
+
+# Floating buttons
+[goToTop]
+other = "Go to top"
+
+[goToComments]
+other = "Go to comments"
+
+# Post meta
+[minRead]
+one = "{{ . }} min read"
+other = "{{ . }} min read"
+
+[staleWarning]
+other = "This post was published <strong>{{ . }}</strong> days ago. Some of it may be out of date or plain wrong by now — take it with a pinch of salt."
+
+# List page titles
+[postsTitle]
+other = "Posts"
+
+[tagTitle]
+other = "Tag → "
+
+[categoryTitle]
+other = "Category → "
+
+[tagsTitle]
+other = "Tags"
+
+# Empty states
+[noPostsTitle]
+other = "No posts here yet."
+
+[noPostsBody]
+other = "Nothing has been written in English so far. The Chinese site has the full archive."
+
+[noPostsLink]
+other = "Browse the Chinese posts →"
+
+# 404
+[pageNotFound]
+other = "Page not found"
+
+[notFoundText]
+other = "/* 404 page not found. */"
+
+[backHome]
+other = "↑ Back Home ↑"
