@@ -1,0 +1,32 @@
+{{- /*
+  Builds the language map for the current page and stores it on the page scratch
+  so the head, the switcher and the redirect script all agree on the same URLs.
+
+  Result: .Scratch "languageLinks" -> map of lang code to the best URL for that
+  language. A language is only present with a *real* translation URL; languages
+  without one fall back to that language's home page and are flagged so the
+  auto-redirect can ignore them.
+*/ -}}
+
+{{- $translated := dict -}}
+{{- with .AllTranslations -}}
+  {{- range . -}}
+    {{- $translated = merge $translated (dict .Lang .RelPermalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- $translated = merge $translated (dict .Lang .RelPermalink) -}}
+
+{{- $links := slice -}}
+{{- range .Site.Sites -}}
+  {{- $lang := .Language.Lang -}}
+  {{- $url := index $translated $lang -}}
+  {{- $links = $links | append (dict
+      "lang" $lang
+      "name" .Language.LanguageName
+      "code" .Language.LanguageCode
+      "url" (or $url .Home.RelPermalink)
+      "translated" (ne $url nil)
+  ) -}}
+{{- end -}}
+
+{{- $.Scratch.Set "languageLinks" $links -}}

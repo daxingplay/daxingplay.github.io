@@ -1,0 +1,82 @@
+# Date layouts are Go reference-time layouts, not strftime patterns.
+# Numeric layouts are used on purpose: Go does not localise month names.
+[dateFormat]
+other = "2006 年 1 月 2 日"
+
+[archiveGroupFormat]
+other = "2006 年 1 月"
+
+# Navigation and landmarks
+[mainMenu]
+other = "主菜单"
+
+[socialNetworks]
+other = "社交网络"
+
+[languageMenu]
+other = "语言"
+
+[allPosts]
+other = "全部文章"
+
+[postsList]
+other = "文章列表"
+
+[pagination]
+other = "分页"
+
+[newerPosts]
+other = "← 更新的文章"
+
+[olderPosts]
+other = "更早的文章 →"
+
+[readMore]
+other = "阅读全文 →"
+
+# Floating buttons
+[goToTop]
+other = "回到顶部"
+
+[goToComments]
+other = "查看评论"
+
+# Post meta
+[minRead]
+other = "阅读约 {{ . }} 分钟"
+
+[staleWarning]
+other = "本文发布于 <strong>{{ . }}</strong> 天前，部分内容可能已经过时甚至不再正确，请谨慎参考。"
+
+# List page titles
+[postsTitle]
+other = "文章"
+
+[tagTitle]
+other = "标签 → "
+
+[categoryTitle]
+other = "分类 → "
+
+[tagsTitle]
+other = "标签"
+
+# Empty states
+[noPostsTitle]
+other = "这里还没有文章。"
+
+[noPostsBody]
+other = "换一个语言看看，或者稍后再来。"
+
+[noPostsLink]
+other = "查看英文文章 →"
+
+# 404
+[pageNotFound]
+other = "页面不存在"
+
+[notFoundText]
+other = "/* 404 页面不存在。 */"
+
+[backHome]
+other = "↑ 回到首页 ↑"

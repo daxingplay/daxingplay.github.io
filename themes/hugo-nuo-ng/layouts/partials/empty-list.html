@@ -1,0 +1,16 @@
+{{- /*
+  Shown when a language has no posts in this list. Rather than a dead end, it
+  points at the other language, which is where the archive actually lives.
+*/ -}}
+<div class="empty-list">
+  <p class="empty-title">{{ i18n "noPostsTitle" }}</p>
+  <p class="empty-body">{{ i18n "noPostsBody" }}</p>
+  {{- range .Site.Sites }}
+    {{- if ne .Language.Lang $.Lang }}
+      {{- /* data-set-language matters here: without it a reader whose saved
+             preference is this (empty) language would be redirected straight
+             back by the head script, and the link would do nothing. */ -}}
+      <p class="empty-link"><a href="{{ .Home.RelPermalink }}" hreflang="{{ .Language.LanguageCode }}" data-set-language="{{ .Language.Lang }}">{{ i18n "noPostsLink" }}</a></p>
+    {{- end }}
+  {{- end }}
+</div>

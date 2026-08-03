@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.Language.LanguageCode | default .Lang }}">
 <head>
 
   <meta charset="utf-8" />
@@ -10,6 +10,9 @@
       {{ if eq .Kind "page" }}{{ .Title }}{{ else if isset .Site.Params "seotitle" }}{{ .Site.Params.seotitle }}{{ else }}{{ .Site.Title }}{{ end }}
     {{- end -}}
   </title>
+
+  <!-- Language detection, must run before anything paints -->
+  {{ partial "language-redirect.html" . }}
 
   <!-- Shared Head -->
   {{ partial "head.html" . }}
@@ -27,14 +30,14 @@
       {{- $commentIcon = "fas fa-comment-dots" -}}
     {{- end -}}
     <div class="suspension">
-      <a role="button" aria-label="Go to top" title="Go to top" class="to-top is-hide"><span class="{{ $upIcon }}" aria-hidden="true"></span></a>
+      <a role="button" aria-label="{{ i18n "goToTop" }}" title="{{ i18n "goToTop" }}" class="to-top is-hide"><span class="{{ $upIcon }}" aria-hidden="true"></span></a>
       {{ if and (eq .Type "post") (eq .Kind "page") }}
         {{ if .Site.Params.changyan }}
-	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#SOHUCS"><span class="{{ $commentIcon }}" aria-hidden="true"></span></a>
+	<a role="button" aria-label="{{ i18n "goToComments" }}" title="{{ i18n "goToComments" }}" class="to-comment" href="#SOHUCS"><span class="{{ $commentIcon }}" aria-hidden="true"></span></a>
         {{ else if .Site.DisqusShortname }}
-	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#disqus_thread"><span class="{{ $commentIcon }}" aria-hidden="true"></span></a>
+	<a role="button" aria-label="{{ i18n "goToComments" }}" title="{{ i18n "goToComments" }}" class="to-comment" href="#disqus_thread"><span class="{{ $commentIcon }}" aria-hidden="true"></span></a>
         {{ else if .Site.Params.Gitment }}
-	<a role="button" aria-label="Go to comments" title="Go to comments" class="to-comment" href="#gitment-container"><span class="{{ $commentIcon }}" aria-hidden="true"></span></a>
+	<a role="button" aria-label="{{ i18n "goToComments" }}" title="{{ i18n "goToComments" }}" class="to-comment" href="#gitment-container"><span class="{{ $commentIcon }}" aria-hidden="true"></span></a>
         {{ else }}{{ end }}
       {{ end }}
     </div>

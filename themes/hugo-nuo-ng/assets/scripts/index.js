@@ -19,6 +19,19 @@ menuToggle &&
     else menuToggle.setAttribute('aria-expanded', 'false');
   });
 
+// Remember an explicit language choice. Once set, the head script stops
+// consulting the browser's Accept-Language and always honours this instead.
+var languageLinks = document.querySelectorAll('[data-set-language]');
+Array.prototype.forEach.call(languageLinks, function(link) {
+  link.addEventListener('click', function() {
+    try {
+      window.localStorage.setItem('preferred-language', link.getAttribute('data-set-language'));
+    } catch (e) {
+      // Storage unavailable: the click still navigates, it just won't stick.
+    }
+  });
+});
+
 // Medium zoom init
 var zoomables = document.querySelectorAll('.zoomable > img, img.zoomable');
 zoomables.length && mediumZoom(zoomables);

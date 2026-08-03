@@ -1,0 +1,15 @@
+{{- partial "language-links.html" . -}}
+<nav class="language-menu" aria-label="{{ i18n "languageMenu" }}">
+  <h2 class="offscreen">{{ i18n "languageMenu" }}</h2>
+  <ul class="language-list">
+    {{- range ($.Scratch.Get "languageLinks") }}
+      <li class="language-item{{ if eq .lang $.Lang }} is-active{{ end }}">
+        {{- if eq .lang $.Lang -}}
+          <span aria-current="true">{{ .name }}</span>
+        {{- else -}}
+          <a href="{{ .url }}" hreflang="{{ .code }}" lang="{{ .code }}" data-set-language="{{ .lang }}">{{ .name }}</a>
+        {{- end -}}
+      </li>
+    {{- end }}
+  </ul>
+</nav>

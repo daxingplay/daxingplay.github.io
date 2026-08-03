@@ -6,13 +6,13 @@
   {{ partial "header.html" . }}
   <section class="main post-list">
     <header class="list-header offscreen">
-      <h2 class="list-label">Posts List</h2>
+      <h2 class="list-label">{{ i18n "postsList" }}</h2>
     </header>
-    {{ range (where .Site.RegularPages "Type" "post").GroupByDate "Jan 2006" -}}
+    {{ range (where .Site.RegularPages "Type" "post").GroupByDate (i18n "archiveGroupFormat") -}}
       <h3>{{ .Key }}</h3>
       <ol>
         {{ range .Pages -}}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a>&nbsp;&nbsp;({{ .Date.Format "Jan 2, 2006" }})</li>
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a>&nbsp;&nbsp;({{ .Date.Format (i18n "dateFormat") }})</li>
         {{ end -}}
       </ol>
     {{ end -}}

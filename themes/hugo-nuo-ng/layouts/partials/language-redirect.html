@@ -1,0 +1,58 @@
+{{- /*
+  First-visit language detection.
+
+  Runs inline in <head>, before anything paints, so a redirect never shows a
+  flash of the wrong language. Rules, in order:
+
+    1. An explicit choice (saved by the language switcher) always wins.
+    2. Otherwise the browser's Accept-Language preference order decides.
+    3. Either way we only move if this exact page really exists in that
+       language — no bouncing a reader to a home page they didn't ask for.
+
+  Because the choice lives in localStorage, this is invisible to the CDN and to
+  crawlers: every URL still serves one fixed language.
+*/ -}}
+{{- partial "language-links.html" . -}}
+{{- $targets := dict -}}
+{{- range ($.Scratch.Get "languageLinks") -}}
+  {{- if .translated -}}
+    {{- $targets = merge $targets (dict .lang .url) -}}
+  {{- end -}}
+{{- end -}}
+<script>
+  (function () {
+    var targets = {{ $targets | jsonify | safeJS }};
+    var current = {{ .Lang }};
+    var KEY = 'preferred-language';
+
+    // Map any BCP-47 tag onto one of the site's languages.
+    function normalize(tag) {
+      tag = String(tag || '').toLowerCase();
+      if (tag.indexOf('zh') === 0) return 'zh-cn';
+      if (tag.indexOf('en') === 0) return 'en';
+      return null;
+    }
+
+    var wanted = null;
+    try {
+      wanted = normalize(window.localStorage.getItem(KEY));
+    } catch (e) {
+      // Private mode or storage disabled: fall through to browser detection.
+    }
+
+    if (!wanted) {
+      var tags = navigator.languages || [navigator.language || navigator.userLanguage];
+      for (var i = 0; i < tags.length; i++) {
+        wanted = normalize(tags[i]);
+        if (wanted) break;
+      }
+    }
+
+    if (!wanted || wanted === current) return;
+
+    var target = targets[wanted];
+    if (target && target !== window.location.pathname) {
+      window.location.replace(target + window.location.search + window.location.hash);
+    }
+  })();
+</script>

@@ -1,7 +1,7 @@
 {{ define "title" }}
-  {{ if eq .Data.Singular "tag" }}Tag → {{ .Data.Term }}
-  {{ else if eq .Data.Singular "category" }}Category → {{ .Data.Term }}
-  {{ else }}Posts{{ end }}
+  {{ if eq .Data.Singular "tag" }}{{ i18n "tagTitle" }}{{ .Data.Term }}
+  {{ else if eq .Data.Singular "category" }}{{ i18n "categoryTitle" }}{{ .Data.Term }}
+  {{ else }}{{ i18n "postsTitle" }}{{ end }}
   {{ if isset .Site.Params "seotitle" }} | {{ .Site.Params.seotitle }}{{ else }} | {{ .Site.Title }}{{ end }}
 {{ end }}
 
@@ -9,7 +9,7 @@
   {{ partial "header.html" . }}
   <section class="main post-list">
     <header class="list-header offscreen">
-      <h2 class="list-label">Posts List</h2>
+      <h2 class="list-label">{{ i18n "postsList" }}</h2>
     </header>
     {{ $paginator := .Paginate (where .Data.Pages "Type" "post") (index .Site.Params "paginate" | default 10) }}
     {{ if ne $paginator.TotalPages 0 }}
@@ -17,18 +17,17 @@
         {{ .Render "summary" }}
       {{ end }}
     {{ else }}
-      <p>There's nothing here.<br>Create an interesting post with the command:</p>
-      <p><code>$ hugo new post/hello-world.md</code></p>
+      {{ partial "empty-list.html" . }}
     {{ end }}
     {{ if gt $paginator.TotalPages 1 }}
       <footer class="list-footer">
         <nav class="pagination">
-          <h3 class="offscreen">Pagination</h3>
+          <h3 class="offscreen">{{ i18n "pagination" }}</h3>
           {{ if $paginator.HasPrev }}
-            <a class="pagination-previous" href="{{ $paginator.Prev.URL }}">← Newer Posts</a>
+            <a class="pagination-previous" href="{{ $paginator.Prev.URL }}">{{ i18n "newerPosts" }}</a>
           {{ end }}
           {{ if $paginator.HasNext }}
-            <a class="pagination-next" href="{{ $paginator.Next.URL }}">Older Posts →</a>
+            <a class="pagination-next" href="{{ $paginator.Next.URL }}">{{ i18n "olderPosts" }}</a>
           {{ end }}
         </nav>
       </footer>

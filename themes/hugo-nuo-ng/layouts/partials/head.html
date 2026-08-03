@@ -82,6 +82,23 @@
 
 <!-- Permalink & RSSlink -->
 <link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Alternate languages: only real translations, so crawlers never see a
+     hreflang pointing at a page in the wrong language. -->
+{{- partial "language-links.html" . }}
+{{- range ($.Scratch.Get "languageLinks") }}
+  {{- if .translated }}
+<link rel="alternate" hreflang="{{ .code }}" href="{{ .url | absURL }}">
+  {{- end }}
+{{- end }}
+{{- /* x-default is the default language's copy of *this* page when it exists.
+       .Site.Sites is ordered by language weight, so index 0 is the default. */}}
+{{- $defaultLang := (index .Site.Sites 0).Language.Lang }}
+{{- range ($.Scratch.Get "languageLinks") }}
+  {{- if and .translated (eq .lang $defaultLang) }}
+<link rel="alternate" hreflang="x-default" href="{{ .url | absURL }}">
+  {{- end }}
+{{- end }}
 {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}

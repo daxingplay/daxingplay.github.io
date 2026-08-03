@@ -1,0 +1,57 @@
+/*
+ * Language switcher and empty-list state.
+ *
+ * Adds no colours of its own: the switcher follows the sidebar's existing
+ * active-nav idiom (inactive links sit at 0.5 opacity via .site-header a,
+ * the current item is full-strength and bold), so the palette is untouched.
+ */
+
+.language-menu {
+  margin: 0 auto 1.5rem;
+  font-size: $size-7;
+
+  & .language-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  & .language-item {
+    display: inline-block;
+    padding: 0;
+
+    /* Hairline separator between the languages. */
+    & + .language-item {
+      margin-left: 0.5rem;
+      padding-left: 0.75rem;
+      border-left: 1px solid $border;
+    }
+
+    & span {
+      color: $text-strong;
+      font-weight: $weight-bold;
+      cursor: default;
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+    margin-bottom: 1rem;
+  }
+}
+
+.empty-list {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: $text-light;
+
+  & .empty-title {
+    font-size: $size-5;
+    font-weight: $weight-semibold;
+    color: $text-strong;
+    margin-bottom: 0.5rem;
+  }
+
+  & .empty-body {
+    margin-bottom: 1.5rem;
+  }
+}
