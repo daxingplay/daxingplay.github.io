@@ -152,6 +152,8 @@ Home Assistant 自动化只负责发通知：如果换水周期运行中触发�
 
 ## 3D 外壳：AI 最让我意外的一部分
 
+![assembled](/files/smart-aquarium-controller/IMG_2751.jpeg)
+
 电路和固件做完以后，桌面上就是一坨裸露的板子、线、泵和管子。鱼缸旁边有水，这样放肯定不合适，于是我又让 Claude 帮我设计一个外壳。
 
 我原本以为 AI 可能只能给个大概结构，没想到它直接用 OpenSCAD 做了一个参数化模型，还能输出 STL。
@@ -170,7 +172,19 @@ Home Assistant 自动化只负责发通知：如果换水周期运行中触发�
 
 打印出来以后尺寸基本准确，泵、板子、螺丝孔都能对上。唯一的小瑕疵是有个卡扣没有预留和另一个部件衔接的卡槽，我 review 的时候也没发现，最后只能自己用尖嘴钳修了一个槽。总体来说，这部分反而是我最惊喜的：OpenSCAD 这种"用代码描述几何"的方式，特别适合让 AI 参与机械结构设计。
 
+![putting inside the case](/files/smart-aquarium-controller/IMG_2761.jpeg)
+
+![the bottom layer for two pumps](/files/smart-aquarium-controller/IMG_2762.jpeg)
+
+![the upper layer for the board](/files/smart-aquarium-controller/IMG_2763.jpeg)
+
 ## 最后实际用起来是什么样
+
+组装好之后就是下面这个样子，我就放在了鱼缸上面。
+
+![assembled](/files/smart-aquarium-controller/IMG_2765.jpeg)
+
+![assembled](/files/smart-aquarium-controller/IMG_2767.jpeg)
 
 后面我又买了两个 3L 的小储水盒，一个放困好的新水，一个放抽出来的废水。废水盒子上贴一个 XKC-Y25，水满就停止排水；鱼缸上贴另一个，水位到上限就停止补水。
 
