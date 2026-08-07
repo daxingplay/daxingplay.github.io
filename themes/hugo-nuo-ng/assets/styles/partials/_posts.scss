@@ -17,6 +17,29 @@
       margin-bottom: 1rem;
       text-transform: uppercase;
     }
+
+    & .post-cover {
+      display: block;
+      margin: 1.5rem 0 0;
+      border: 1px solid $main-border;
+      border-radius: $radius;
+      background: $white-ter;
+      overflow: hidden;
+      line-height: 0;
+
+      & img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      @media print, screen and (max-width: $tablet) {
+        margin: 1.5rem -1rem 0;
+        border-right: none;
+        border-left: none;
+        border-radius: 0;
+      }
+    }
   }
 
   & .post-footer {

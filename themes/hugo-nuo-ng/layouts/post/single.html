@@ -4,6 +4,11 @@
     <header class="post-header">
       <h1 class="post-title">{{ .Title }}</h1>
       <p class="post-meta">@{{ if isset .Params "author" }}{{ .Params.author }}{{ else }}{{ .Site.Params.author }}{{ end }} · {{ .Date.Format (i18n "dateFormat") }} · {{ i18n "minRead" .ReadingTime }}</p>
+      {{ if isset .Params "cover" }}
+      <figure class="post-cover">
+        <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+      </figure>
+      {{ end }}
     </header>
     <article class="post-content">{{ .Content }}</article>
     <footer class="post-footer">
