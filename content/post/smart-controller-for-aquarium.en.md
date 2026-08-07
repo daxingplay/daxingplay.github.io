@@ -1,7 +1,7 @@
 +++
 author = "daxingplay"
 categories = ["Smart Home", "ESP32", "Home Assistant", "AI"]
-cover = "/files/smart-aquarium-controller/image.jpg"
+cover = "/files/smart-aquarium-controller/image.png"
 date = 2026-08-02T23:30:00+08:00
 description = "What started as an algae problem in a Xiaomi fish tank turned into an ESP32 build: ESPHome, peristaltic pumps, level sensors, Home Assistant, and a 3D-printed enclosure."
 draft = false
