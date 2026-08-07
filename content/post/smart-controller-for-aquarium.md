@@ -1,7 +1,7 @@
 +++
 author = "daxingplay"
 categories = ["智能家居", "ESP32", "Home Assistant", "AI"]
-cover = "/files/smart-aquarium-controller/poster.jpg"
+cover = "/files/smart-aquarium-controller/image.jpg"
 date = 2026-08-02T23:30:00+08:00
 description = "从鱼缸水质恶化开始，到 ESP32、ESPHome、蠕动泵、水位传感器、Home Assistant 和 3D 打印外壳：一次把小米鱼缸换水做成智能家居基础设施的完整记录。"
 draft = false
