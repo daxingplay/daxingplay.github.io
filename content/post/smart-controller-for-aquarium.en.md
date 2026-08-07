@@ -149,6 +149,8 @@ The Home Assistant automations do nothing but notify. If high water or a full wa
 
 ## The 3D Enclosure Was the Biggest Surprise
 
+![The assembled controller](/files/smart-aquarium-controller/IMG_2751.jpeg)
+
 With the electronics and firmware working, my desk was a sprawl of bare boards, wires, pumps, and tubing. Not something I wanted parked next to an aquarium. So I asked Claude to help design an enclosure.
 
 I expected a rough shape at best. What I got was a parametric OpenSCAD model that could spit out STLs.
@@ -167,7 +169,19 @@ It isn't meant to be waterproof. It's meant to keep splashes contained: if water
 
 Printed, the dimensions were essentially correct — pumps, board, and screw holes all lined up. The one flaw was a missing slot where a latch had to mate with another part. I missed it in review and ended up cutting the slot by hand with pliers. On the whole, this was the part of the project that surprised me most. OpenSCAD describes geometry as code, which turns out to be a remarkably good fit for AI-assisted mechanical design.
 
+![Fitting the electronics into the case](/files/smart-aquarium-controller/IMG_2761.jpeg)
+
+![The lower chamber holding the two pumps](/files/smart-aquarium-controller/IMG_2762.jpeg)
+
+![The upper tray carrying the main board](/files/smart-aquarium-controller/IMG_2763.jpeg)
+
 ## What It Does Now
+
+Assembled, it looks like this. It sits on top of the tank.
+
+![The finished controller in place](/files/smart-aquarium-controller/IMG_2765.jpeg)
+
+![The finished controller from the side](/files/smart-aquarium-controller/IMG_2767.jpeg)
 
 I later picked up two 3L containers, one for prepared new water and one for waste. One XKC-Y25 sits on the waste container so draining stops when it fills. The other sits on the tank so refilling stops at the upper water line.
 
