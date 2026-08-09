@@ -31,6 +31,8 @@ aliases = [
 
 这件事就很有意思了：为了不刺激鱼虾螺，换水应该少量、多次、缓慢；但越是缓慢，人越不适合盯着做。于是这个项目就从"鱼缸该换水了"变成了一个 ESP32 + ESPHome 的智能鱼缸串行微量换水系统。
 
+![Overall](/files/smart-aquarium-controller/Gemini_1.png)
+
 ## 目标不是炫技，是少出事
 
 最开始跟 Gemini 讨论自动换水时，它给的是一个很典型的 AWC 方案：ESP32、两个泵、两个液位传感器、继电器、超时保护、防虹吸。后面一轮轮聊下来，方案也被不断修正。
@@ -53,6 +55,8 @@ aliases = [
 - 泵是感性负载，泵端要加续流二极管或 TVS，不能只相信继电器模块自带保护。
 
 这些原则里有些是基础电路常识，有些却是 Gemini 在讨论里提醒我之后才意识到的。比如泵是感性负载，继电器能控制通断，不代表断电瞬间的反向电动势就不存在。如果不是 AI 在采购和接线阶段提前把这些坑点拎出来，我很可能会只把泵接上继电器，等它用着用着再坏。
+
+![The Controller](/files/smart-aquarium-controller/Gemini_2.png)
 
 ## 电源拓扑：12V 是动力，5V 是系统，3.3V 是信号
 
@@ -133,6 +137,8 @@ script:
 
 这部分我不想交给 Home Assistant 做，因为网络、Wi-Fi、HA 重启都可能发生。真正会导致水漫出来的故障，必须在控制器本地处理。
 
+![Water Level Sensor](/files/smart-aquarium-controller/Gemini_3.png)
+
 ## Home Assistant 只是面板和通知
 
 ESPHome 接入 Home Assistant 之后，我暴露了这些实体：
@@ -149,6 +155,8 @@ ESPHome 接入 Home Assistant 之后，我暴露了这些实体：
 这里有个小坑：ESPHome 的内部 `script` 不会自动变成 Home Assistant 里的 `script.xxx` 实体。所以我另外用 `button:` 暴露了一个 `Run Aquarium Water Change` 按钮，让 HA 可以手动触发完整换水流程。
 
 Home Assistant 自动化只负责发通知：如果换水周期运行中触发了高水位或废水桶满水，就推一条高优先级告警。真正的停泵动作仍然在 ESP32 本地完成。
+
+![The Home Assistant Dashboard](/files/smart-aquarium-controller/Gemini_4.png)
 
 ## 3D 外壳：AI 最让我意外的一部分
 
