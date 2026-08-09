@@ -28,6 +28,8 @@ The fix was obvious: change the water. Just not too much at once. For a roughly 
 
 And that's the catch. To keep the fish, shrimp, and snails from getting shocked, water changes need to be small, frequent, and slow. But the slower it goes, the less sense it makes for a person to stand there supervising. Which is how "this tank needs water changes" became "this tank needs an ESP32."
 
+![Overview of the smart aquarium water-change system](/files/smart-aquarium-controller/Gemini_1.png)
+
 ## The Goal Was Fewer Ways to Fail
 
 When I first floated automatic water changes past Gemini, it came back with a fairly standard AWC design: ESP32, two pumps, two level sensors, relays, timeout protection, anti-siphon measures. Several rounds of back-and-forth later, most of that had been revised.
@@ -50,6 +52,8 @@ A few principles fell out of that:
 - Pumps are inductive loads. Add flyback diodes or TVS protection at the pump itself rather than trusting the relay module to cope.
 
 Some of that is basic electronics. Some of it came from Gemini during the design phase, and the pump protection point in particular caught me off guard. A relay will happily switch a pump on and off, but that doesn't make the reverse voltage spike disappear when the motor stops. Without AI flagging those details while I was buying parts and planning the wiring, I'd probably have wired the pumps straight to the relay and waited for something to die months later.
+
+![Controller internals and the sequential water-change cycle](/files/smart-aquarium-controller/Gemini_2.png)
 
 ## Power: 12V for Motors, 5V for the System, 3.3V for Signals
 
@@ -130,6 +134,8 @@ The tank high-water sensor behaves more like a hardware fuse than a sensor. The 
 
 I don't want Home Assistant owning that path. Networks go down, Wi-Fi drops, HA restarts. Anything capable of putting water on the floor gets handled on the controller itself.
 
+![Non-contact level sensors on the aquarium and waste container](/files/smart-aquarium-controller/Gemini_3.png)
+
 ## Home Assistant Is Just the Dashboard and the Doorbell
 
 Once ESPHome was talking to Home Assistant, I exposed:
@@ -146,6 +152,8 @@ Once ESPHome was talking to Home Assistant, I exposed:
 One ESPHome gotcha worth knowing: an internal `script` doesn't show up in Home Assistant as a `script.xxx` entity on its own. So I added a `button:` named `Run Aquarium Water Change` for HA to trigger the full cycle.
 
 The Home Assistant automations do nothing but notify. If high water or a full waste container trips while a cycle is running, HA fires off a high-priority alert — but the pumps have already been shut down locally by then.
+
+![Home Assistant dashboard for the aquarium water-change controller](/files/smart-aquarium-controller/Gemini_4.png)
 
 ## The 3D Enclosure Was the Biggest Surprise
 
