@@ -31,7 +31,7 @@ aliases = [
 
 这件事就很有意思了：为了不刺激鱼虾螺，换水应该少量、多次、缓慢；但越是缓慢，人越不适合盯着做。于是这个项目就从"鱼缸该换水了"变成了一个 ESP32 + ESPHome 的智能鱼缸串行微量换水系统。
 
-![Overall](/files/smart-aquarium-controller/Gemini_1.png)
+![智能鱼缸自动换水系统总览](/files/smart-aquarium-controller/Gemini_1.png)
 
 ## 目标不是炫技，是少出事
 
@@ -56,7 +56,7 @@ aliases = [
 
 这些原则里有些是基础电路常识，有些却是 Gemini 在讨论里提醒我之后才意识到的。比如泵是感性负载，继电器能控制通断，不代表断电瞬间的反向电动势就不存在。如果不是 AI 在采购和接线阶段提前把这些坑点拎出来，我很可能会只把泵接上继电器，等它用着用着再坏。
 
-![The Controller](/files/smart-aquarium-controller/Gemini_2.png)
+![控制器内部结构与串行换水流程](/files/smart-aquarium-controller/Gemini_2.png)
 
 ## 电源拓扑：12V 是动力，5V 是系统，3.3V 是信号
 
@@ -137,7 +137,7 @@ script:
 
 这部分我不想交给 Home Assistant 做，因为网络、Wi-Fi、HA 重启都可能发生。真正会导致水漫出来的故障，必须在控制器本地处理。
 
-![Water Level Sensor](/files/smart-aquarium-controller/Gemini_3.png)
+![鱼缸和废水桶的非接触水位传感器](/files/smart-aquarium-controller/Gemini_3.png)
 
 ## Home Assistant 只是面板和通知
 
@@ -156,7 +156,7 @@ ESPHome 接入 Home Assistant 之后，我暴露了这些实体：
 
 Home Assistant 自动化只负责发通知：如果换水周期运行中触发了高水位或废水桶满水，就推一条高优先级告警。真正的停泵动作仍然在 ESP32 本地完成。
 
-![The Home Assistant Dashboard](/files/smart-aquarium-controller/Gemini_4.png)
+![Home Assistant 鱼缸换水控制面板](/files/smart-aquarium-controller/Gemini_4.png)
 
 ## 3D 外壳：AI 最让我意外的一部分
 
